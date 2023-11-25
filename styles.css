@@ -1,0 +1,237 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    padding: 5px;
+    border-bottom: 4px solid blue;
+    left:0;
+    right: 0;
+    margin-right:0;
+    margin-left: -10px;
+    width:100%;
+    margin-top:-10px;
+    
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-color: darkblue;
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    padding: 30px;
+    z-index: 1; /* Додајте го ова */
+}
+ #navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 80px;
+    background-color: aqua;
+ }
+
+.header li
+{
+    color:darkblue
+}
+.footer p
+{
+    color: darkblue;
+}
+#navbar li
+{
+    position:relative;
+    list-style: none;
+    padding: 0 20px;
+    color: darkblue;
+}
+#navbar li a
+{
+    text-decoration: none;
+    color: darkblue;
+}
+body
+{
+    background-image: url("p1.webp");
+    background-size: cover;
+}
+#main {
+    min-width: 100px; 
+    padding: 50%;
+    position: relative; /* Додајте го ова */
+    z-index: 1; /* Додајте го ова */
+}
+
+#main p,
+#main h2 {
+    text-align: center;
+    color: darkblue;
+    white-space: nowrap; 
+    z-index: 1; 
+}
+#main h2
+{
+    color: darkblue;
+}
+#naslov
+{
+    align-items: left;
+    justify-content: left;
+    margin-right:10%;
+}
+#Main {
+    padding: 5%;
+}
+
+#Main h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 3em; 
+    position: relative;
+}
+
+#Main h5 {
+    text-align: center;
+    color: darkblue;
+    font-size: 1.5em; 
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    #Main h1 {
+        font-size: 2em;
+    }
+
+    #Main h5 {
+        font-size: 1em;
+    }
+}
+@media (max-width: 1500px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #navbar {
+        margin: 10px 0;
+    }
+}
+#main1 {
+    min-width: 100px; 
+    padding: 50%;
+    position: relative; 
+    z-index: 1; 
+}
+#main2 {
+    min-width: 100px; 
+    padding: 50%;
+    position: relative; 
+    z-index: 1;
+}
+#shopTable
+{
+    border-style: solid;
+    border-color: black;
+}
+#productname
+ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+#quantity
+ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+#price
+ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+.header a:hover{
+    font-weight: 700;
+    color: rgb(18, 18, 87);
+}
+.sekcii{
+    height: 67vh;
+    width:160vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: left;
+    justify-content: center;
+    
+    
+}
+.sekcija{
+    position: relative;
+    border: 1px solid white;
+    height: 16vh;
+    width: 140vh;
+    margin-top:10px;
+    z-index: 1;
+    margin-left: 10px;
+}
+.info{
+    color: rgb(12, 12, 110);
+    position: absolute;
+    bottom:95px;
+    left:15px; 
+    z-index: 10;
+    /* font-size: large; */
+    font-weight: 700;
+    padding: 0 5px;
+    background: transparent;
+    
+}
+.infos{
+    color: rgb(168, 168, 221);
+    margin-top: 10px;
+    margin-left: 10px;
+    display: grid;
+    justify-content: left;
+    left: 10%;
+
+}
+.infos_info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.submit_button{
+    position: relative;
+    top: 17%;
+    color: blue;
+    background-color: rgb(134, 134, 199);
+}
+.forma{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(12, 12, 110);
+}
+.nav_item a:hover{
+    font-weight: 700;
+    color: rgb(18, 18, 87);
+}
